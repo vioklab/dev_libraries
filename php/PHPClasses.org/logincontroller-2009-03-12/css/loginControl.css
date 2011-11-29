@@ -1,0 +1,68 @@
+.loginbuttons, h4 {text-align:center; width:100%;}
+
+
+
+
+#loginform .button {
+	background-image:url('images/bg2.GIF');
+	background-color:#aaa;
+	border:2px;
+	border-style:outset;
+	}
+
+#loginform input:focus , #loginform input:hover , #loginform input:active {
+	border-style:inset;
+	color:#f00;
+}
+#loginform {
+	clear:both;
+	width:100%;
+	background-color:#3cc;
+	font-size:14px;
+	text-align:right;
+	padding:5px 0px;
+	border-bottom:4px solid #388;
+}
+#lt_msg { 
+	color:red;
+	text-align:center;
+}
+#loginform * {
+	padding:0px;
+	margin:0px;
+}
+
+#loginform form {
+	margin-right:10px;
+}
+
+#loginform p {
+	display:inline;
+}
+
+.formPanel {
+	padding: 10px;
+	margin: auto;
+	display:block;
+	width:400px;
+	text-align:center;	
+}
+
+.fieldnames, .fieldanswers {
+	width:170px;
+	float:left;
+	text-align:left;	
+}
+.fieldanswers form {padding:0px;margin:0px;}
+
+.fieldnames label {
+	width:170px;
+	height:30px;
+	margin-bottom: 6px;
+	display:block;
+}
+.fieldanswers input {
+	width:180px;
+	height:30px;
+	margin:0px;
+}

@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Page not found &middot; Isotope</title>
+  
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen" />
+  
+  <style>
+    .page {
+      font-size: 10px;
+      width: 8em;
+      height: 10em;
+      color: white;
+      border: 0.5em solid;
+      margin: 10px;
+      float: left;
+      position: relative;
+    }
+    
+    .page div {
+      position: absolute;
+      top: -0.5em;
+      right: -0.5em;
+    }
+    
+    .page .fold {
+      width: 2.5em;
+      height: 2.5em;
+      border-left: 0.5em solid;
+      border-bottom: 0.5em solid;
+    }
+    
+    .page .corner-a {
+      border-top: 3em solid;
+      border-left: 3em solid transparent;
+    }
+    
+    .page .corner-b {
+      border-top: 2.3em solid #1F1E1D;
+      border-left: 2.3em solid transparent;
+    }
+    
+    .page h4 {
+      position: absolute;
+      width: 100%;
+      top: 0.75em;
+      font-size: 6em;
+      text-align: center;
+      font-weight: normal;
+    }
+    
+    /* bad page */
+    
+    .page.bad {
+      font-size: 30px;
+      width: 280px;
+      height: 340px;
+      color: red;
+      z-index: 100;
+    }
+    
+    .page.bad h4 {
+      top: 0.7em;
+      font-size: 7em;
+    }
+    
+    .page.bad:hover h4  {
+      color: white;
+    }
+    
+    .page.bad h1 {
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      bottom: 5px;
+    }
+
+
+    /* back page */
+    
+    .page.back {
+      font-size: 20px;
+      width: 180px;
+      height: 220px;
+      color: #4BF;
+      z-index: 100;
+      background: #4BF;
+    }
+    
+    .page.back:hover {
+      background: yellow;
+      color: yellow;
+    }
+    
+    .page.back a {
+      width: 100%;
+      height: 100%;
+      display: block;
+      color: #111;
+    }
+    
+    .page.back .fold { color: #111; }
+    
+    .page.back .corner-b { 
+      
+      border-top-width: 2.5em;
+      border-left-width: 2.5em;
+    }
+    
+    .page.back h4 {
+      top: 0.6em;
+      font-size: 7em;
+      -webkit-transform: rotate(-135deg);
+         -moz-transform: rotate(-135deg);
+          -ms-transform: rotate(-135deg);
+           -o-transform: rotate(-135deg);
+              transform: rotate(-135deg);
+    }
+    
+    .page.back h2 {
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      font-size: 28px;
+      bottom: -10px;
+      font-weight: 300;
+    }
+    
+    #container {
+      border: none;
+      padding: 0;
+    }
+    
+  </style>
+  
+  <!-- scripts at bottom of page -->
+  
+  <script src="http://desandro.com/mint/?js"></script> <!-- analytics -->
+
+</head>
+<body>
+
+  <div id="container">
+    <div class="page bad" data-order="0">
+      <div class="fold"></div>
+      <div class="corner-a"></div>
+      <div class="corner-b"></div>
+      <h4>&#x2715;</h4>
+      <h1>Page not found</h1>
+    </div>
+    <div class="page back">
+      <a href="/">
+        <div class="fold"></div>
+        <div class="corner-b"></div>
+        <h4>&#x2794;</h4>
+        <h2>Back to Isotope index</h2>
+      </a>
+    </div>
+    <div class="page good">
+      <div class="fold"></div>
+      <div class="corner-a"></div>
+      <div class="corner-b"></div>
+      <h4>&#x2713;</h4>
+    </div>
+  </div>
+  
+
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="/jquery.isotope.js"></script>
+  <script>
+    $(function(){
+      var $container = $('#container')
+          $goodPage = $('.page.good'),
+          pages = $([]);
+          
+      for ( var i=0; i < 30; i++) {
+        pages.push( $goodPage.clone()[0] )
+      }
+      
+      $container.append( $(pages) ).isotope({
+        masonry: {
+          columnWidth: 110,
+        }
+      });
+      
+      $('.page.bad').mouseenter(function(){
+        $container.isotope( 'shuffle' );
+      });
+      
+    });
+  </script>
+  
+  <!-- analytics -->
+  <script>
+    var _gaq=[['_setAccount','UA-592624-5'],['_trackPageview'],['_setDomainName', '.metafizzy.co']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+
+
+</body>
+</html>

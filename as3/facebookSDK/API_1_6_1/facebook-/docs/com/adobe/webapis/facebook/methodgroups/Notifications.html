@@ -1,0 +1,357 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../../../../../style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="../../../../../print.css" type="text/css" media="print">
+<meta content="Notifications,com.adobe.webapis.facebook.methodgroups.Notifications,get,send,sendRequest" name="keywords">
+<title>com.adobe.webapis.facebook.methodgroups.Notifications</title>
+</head>
+<body>
+<script type="text/javascript" language="javascript" src="../../../../../asdoc.js"></script><script type="text/javascript" language="javascript" src="../../../../../cookies.js"></script><script type="text/javascript" language="javascript">
+<!--
+				asdocTitle = 'Notifications - Adobe ActionScript 3.0 Library - facebook';
+				var baseRef = '../../../../../';
+				window.onload = configPage;
+			--></script>
+<table style="display:none" id="titleTable" cellspacing="0" cellpadding="0" class="titleTable">
+<tr>
+<td align="left" class="titleTableTitle">API Documentation</td><td align="right" class="titleTableTopNav"><a onclick="loadClassListFrame('../../../../../all-classes.html')" href="../../../../../package-summary.html">All&nbsp;Packages</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('../../../../../all-classes.html')" href="../../../../../class-summary.html">All&nbsp;Classes</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('../../../../../index-list.html')" href="../../../../../all-index-A.html">Index</a>&nbsp;|&nbsp;<a href="../../../../../index.html?com/adobe/webapis/facebook/methodgroups/Notifications.html&amp;com/adobe/webapis/facebook/methodgroups/class-list.html" id="framesLink1">Frames</a><a onclick="parent.location=document.location" href="" style="display:none" id="noFramesLink1">No&nbsp;Frames</a></td><td rowspan="3" align="right" class="titleTableLogo"><img alt="Adobe Logo" title="Adobe Logo" class="logoImage" src="../../../../../images/logo.jpg"></td>
+</tr>
+<tr class="titleTableRow2">
+<td align="left" id="subTitle" class="titleTableSubTitle">Class&nbsp;Notifications</td><td align="right" id="subNav" class="titleTableSubNav"><a href="#methodSummary">Methods</a>&nbsp;| <a href="#eventSummary">Events</a></td>
+</tr>
+<tr class="titleTableRow3">
+<td colspan="2">&nbsp;</td>
+</tr>
+</table>
+<script type="text/javascript" language="javascript">
+<!--
+if (!isEclipse() || window.name != ECLIPSE_FRAME_NAME) {titleBar_setSubTitle("Class Notifications"); titleBar_setSubNav(false,false,false,false,true,false,true,false,false,false,false,false,false,false);}
+--></script>
+<div class="MainContent">
+<table cellspacing="0" cellpadding="0" class="classHeaderTable">
+<tr>
+<td class="classHeaderTableLabel">Package</td><td><a onclick="javascript:loadClassListFrame('class-list.html')" href="package-detail.html">com.adobe.webapis.facebook.methodgroups</a></td>
+</tr>
+<tr>
+<td class="classHeaderTableLabel">Class</td><td class="classSignature">public class Notifications</td>
+</tr>
+</table>
+<p></p>
+  Contains the methods for the Feed method group in the Facebook API.
+  
+  Even though the events are listed here, they're really broadcast
+  from the FacebookService instance itself to make using the service
+  easier.
+  <p></p>
+<br>
+<hr>
+</div>
+<a name="methodSummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Public Methods</div>
+<table id="summaryTableMethod" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Method</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#Notifications()">Notifications</a>(service:<a href="../FacebookService.html">FacebookService</a>)</div>
+<div class="summaryTableDescription">
+   Construct a new Feed "method group" class
+      </div>
+</td><td class="summaryTableOwnerCol">Notifications</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#get()">get</a>():void</div>
+<div class="summaryTableDescription">
+   Returns information on outstanding Facebook notifications for current session user.</div>
+</td><td class="summaryTableOwnerCol">Notifications</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#send()">send</a>(to_ids:Array, notification:String, email:String = ""):void</div>
+<div class="summaryTableDescription">
+   Send a notification to a set of users.</div>
+</td><td class="summaryTableOwnerCol">Notifications</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#sendRequest()">sendRequest</a>(to_ids:Array, type:String, content:String, image:String, invite:Boolean = false):void</div>
+<div class="summaryTableDescription">
+   Send a request or invitation to a set of users.</div>
+</td><td class="summaryTableOwnerCol">Notifications</td>
+</tr>
+</table>
+</div>
+<a name="eventSummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Events</div>
+<table id="summaryTableEvent" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Event</th><th>Summary</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#event:notificationsGet">notificationsGet</a>
+</div>
+</td><td class="summaryTableDescription summaryTableCol">
+   Broadcast as a result of the get method being called
+      The event contains the following properties
+   success - Boolean indicating if the call was successful or not
+   data - When success is true, contains a "notifications_get_response" string
+       When success is false, contains an "error" FacebookError instance
+      </td><td class="summaryTableOwnerCol">Notifications</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#event:notificationsSend">notificationsSend</a>
+</div>
+</td><td class="summaryTableDescription summaryTableCol">
+   Broadcast as a result of the send method being called
+      The event contains the following properties
+   success - Boolean indicating if the call was successful or not
+   data - When success is true, contains a "notifications_send_response" string
+       When success is false, contains an "error" FacebookError instance
+      </td><td class="summaryTableOwnerCol">Notifications</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#event:notificationsSendRequest">notificationsSendRequest</a>
+</div>
+</td><td class="summaryTableDescription summaryTableCol">
+   Broadcast as a result of the sendRequest method being called
+      The event contains the following properties
+   success - Boolean indicating if the call was successful or not
+   data - When success is true, contains a "notifications_sendRequest_response" string
+       When success is false, contains an "error" FacebookError instance
+      </td><td class="summaryTableOwnerCol">Notifications</td>
+</tr>
+</table>
+</div>
+<script type="text/javascript" language="javascript">
+<!--
+showHideInherited();
+--></script>
+<div class="MainContent">
+<a name="constructorDetail"></a>
+<div class="detailSectionHeader">Constructor detail</div>
+<a name="Notifications()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">Notifications</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">constructor</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function Notifications(service:<a href="../FacebookService.html">FacebookService</a>)</code><p>
+   Construct a new Feed "method group" class
+      </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">service</span>:<a href="../FacebookService.html">FacebookService</a></code> &mdash; The FacebookService this method group
+    is associated with.
+   </td>
+</tr>
+</table>
+</div>
+<a name="methodDetail"></a>
+<div class="detailSectionHeader">Method detail</div>
+<a name="get()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">get</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function get():void</code><p>
+   Returns information on outstanding Facebook notifications for current session user.
+   
+   </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="http://developers.facebook.com/documentation.php?v=1.0&doc=notifications" target="mm_external">http://developers.facebook.com/documentation.php?v=1.0&amp;doc=notifications</a>
+</div>
+</div>
+<a name="send()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">send</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function send(to_ids:Array, notification:String, email:String = ""):void</code><p>
+   Send a notification to a set of users. You can send emails to users that have added 
+   the application without any confirmation, or you can direct a user of your application 
+   to the URL returned by this function to email users who have not yet added your application.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">to_ids</span>:Array</code> &mdash; Comma-separated list of recipient ids. These must be friends of the logged-in user or people who have added your application.
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">notification</span>:String</code> &mdash; FBML for the notifications page.
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">email</span>:String</code> (default = "<code></code>")<code></code> &mdash; (Optional) FBML for the email. If not passed, no email will be sent.
+   </td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="http://developers.facebook.com/documentation.php?v=1.0&doc=notifications" target="mm_external">http://developers.facebook.com/documentation.php?v=1.0&amp;doc=notifications</a>
+</div>
+</div>
+<a name="sendRequest()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">sendRequest</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function sendRequest(to_ids:Array, type:String, content:String, image:String, invite:Boolean = false):void</code><p>
+   Send a request or invitation to a set of users. You can send requests to users 
+   that have added the application without any confirmation, or you can direct a 
+   user of your application to the URL returned by this function to send requests 
+   to users who have not yet added your application.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">to_ids</span>:Array</code> &mdash; Comma-separated list of recipient ids. These must be friends of the logged-in user or people who have added your application.
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">type</span>:String</code> &mdash; The type of request/invitation - e.g. the word "event" in "1 event invitation."
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">content</span>:String</code> &mdash; Content of the request/invitation. This should be FBML containing only links and the special tag <fb:req-choice url="" label="" /> to specify the buttons to be included in the request.
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">image</span>:String</code> &mdash; URL of an image to show beside the request. It will be resized to be 100 pixels wide.
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">invite</span>:Boolean</code> (default = <code>false</code>)<code></code> &mdash; Whether to call this an "invitation" or a "request".
+   </td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="http://developers.facebook.com/documentation.php?v=1.0&doc=notifications" target="mm_external">http://developers.facebook.com/documentation.php?v=1.0&amp;doc=notifications</a>
+</div>
+</div>
+<div class="detailSectionHeader">Event detail</div>
+<a name="event:notificationsGet"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">notificationsGet</td><td class="detailHeaderType">event&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<span class="label">Event object type: </span><a href="../events/FacebookResultEvent.html"><code>com.adobe.webapis.facebook.events.FacebookResultEvent</code></a>
+<br>
+<p></p><p>
+   Broadcast as a result of the get method being called
+      The event contains the following properties
+   success - Boolean indicating if the call was successful or not
+   data - When success is true, contains a "notifications_get_response" string
+       When success is false, contains an "error" FacebookError instance
+      </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../methodgroups/Notifications.html#get" target="">get</a>
+<br>com.adobe.service.facebook.FacebookError</div>
+</div>
+<a name="event:notificationsSend"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">notificationsSend</td><td class="detailHeaderType">event&nbsp;</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<span class="label">Event object type: </span><a href="../events/FacebookResultEvent.html"><code>com.adobe.webapis.facebook.events.FacebookResultEvent</code></a>
+<br>
+<p></p><p>
+   Broadcast as a result of the send method being called
+      The event contains the following properties
+   success - Boolean indicating if the call was successful or not
+   data - When success is true, contains a "notifications_send_response" string
+       When success is false, contains an "error" FacebookError instance
+      </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../methodgroups/Notifications.html#send" target="">send</a>
+<br>com.adobe.service.facebook.FacebookError</div>
+</div>
+<a name="event:notificationsSendRequest"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">notificationsSendRequest</td><td class="detailHeaderType">event&nbsp;</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<span class="label">Event object type: </span><a href="../events/FacebookResultEvent.html"><code>com.adobe.webapis.facebook.events.FacebookResultEvent</code></a>
+<br>
+<p></p><p>
+   Broadcast as a result of the sendRequest method being called
+      The event contains the following properties
+   success - Boolean indicating if the call was successful or not
+   data - When success is true, contains a "notifications_sendRequest_response" string
+       When success is false, contains an "error" FacebookError instance
+      </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../methodgroups/Notifications.html#sendRequest" target="">sendRequest</a>
+<br>com.adobe.service.facebook.FacebookError</div>
+</div>
+<br>
+<br>
+<hr>
+<br>
+<p></p>
+<center class="copyright"> 
+</center>
+</div>
+</body>
+</html>
+<!-- -->

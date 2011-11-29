@@ -1,0 +1,578 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../../../../../style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="../../../../../print.css" type="text/css" media="print">
+<meta content="Photos,com.adobe.webapis.facebook.methodgroups.Photos,addTag,createAlbum,get,getAlbums,getTags,upload" name="keywords">
+<title>com.adobe.webapis.facebook.methodgroups.Photos</title>
+</head>
+<body>
+<script type="text/javascript" language="javascript" src="../../../../../asdoc.js"></script><script type="text/javascript" language="javascript" src="../../../../../cookies.js"></script><script type="text/javascript" language="javascript">
+<!--
+				asdocTitle = 'Photos - Adobe ActionScript 3.0 Library - facebook';
+				var baseRef = '../../../../../';
+				window.onload = configPage;
+			--></script>
+<table style="display:none" id="titleTable" cellspacing="0" cellpadding="0" class="titleTable">
+<tr>
+<td align="left" class="titleTableTitle">API Documentation</td><td align="right" class="titleTableTopNav"><a onclick="loadClassListFrame('../../../../../all-classes.html')" href="../../../../../package-summary.html">All&nbsp;Packages</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('../../../../../all-classes.html')" href="../../../../../class-summary.html">All&nbsp;Classes</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('../../../../../index-list.html')" href="../../../../../all-index-A.html">Index</a>&nbsp;|&nbsp;<a href="../../../../../index.html?com/adobe/webapis/facebook/methodgroups/Photos.html&amp;com/adobe/webapis/facebook/methodgroups/class-list.html" id="framesLink1">Frames</a><a onclick="parent.location=document.location" href="" style="display:none" id="noFramesLink1">No&nbsp;Frames</a></td><td rowspan="3" align="right" class="titleTableLogo"><img alt="Adobe Logo" title="Adobe Logo" class="logoImage" src="../../../../../images/logo.jpg"></td>
+</tr>
+<tr class="titleTableRow2">
+<td align="left" id="subTitle" class="titleTableSubTitle">Class&nbsp;Photos</td><td align="right" id="subNav" class="titleTableSubNav"><a href="#methodSummary">Methods</a>&nbsp;| <a href="#eventSummary">Events</a></td>
+</tr>
+<tr class="titleTableRow3">
+<td colspan="2">&nbsp;</td>
+</tr>
+</table>
+<script type="text/javascript" language="javascript">
+<!--
+if (!isEclipse() || window.name != ECLIPSE_FRAME_NAME) {titleBar_setSubTitle("Class Photos"); titleBar_setSubNav(false,false,false,false,true,false,true,false,false,false,false,false,false,false);}
+--></script>
+<div class="MainContent">
+<table cellspacing="0" cellpadding="0" class="classHeaderTable">
+<tr>
+<td class="classHeaderTableLabel">Package</td><td><a onclick="javascript:loadClassListFrame('class-list.html')" href="package-detail.html">com.adobe.webapis.facebook.methodgroups</a></td>
+</tr>
+<tr>
+<td class="classHeaderTableLabel">Class</td><td class="classSignature">public class Photos</td>
+</tr>
+</table>
+<p></p>
+  Contains the methods for the Photos method group in the Facebook API.
+  
+  Even though the photos are listed here, they're really broadcast
+  from the FacebookService instance itself to make using the service
+  easier.
+  <p></p>
+<br>
+<hr>
+</div>
+<a name="methodSummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Public Methods</div>
+<table id="summaryTableMethod" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Method</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#Photos()">Photos</a>(service:<a href="../FacebookService.html">FacebookService</a>)</div>
+<div class="summaryTableDescription">
+   Construct a new Photos "method group" class
+      </div>
+</td><td class="summaryTableOwnerCol">Photos</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#addTag()">addTag</a>(pid:int, tag_uid:int, tag_text:String, x:Number, y:Number, tags:String):void</div>
+<div class="summaryTableDescription">
+   Adds a tag with the given information to a photo.</div>
+</td><td class="summaryTableOwnerCol">Photos</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#createAlbum()">createAlbum</a>(name:String, location:String = "", description:String = ""):void</div>
+<div class="summaryTableDescription">
+   Creates and returns a new album owned by the current session user.</div>
+</td><td class="summaryTableOwnerCol">Photos</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#get()">get</a>(subj_id:int = -1, aid:int = -1, pids:Array = null):void</div>
+<div class="summaryTableDescription">
+   Returns all visible photos according to the filters specified.</div>
+</td><td class="summaryTableOwnerCol">Photos</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#getAlbums()">getAlbums</a>(uid:int, pids:Array):void</div>
+<div class="summaryTableDescription">
+   Returns membership list data associated with an event.</div>
+</td><td class="summaryTableOwnerCol">Photos</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#getTags()">getTags</a>(pids:Array):void</div>
+<div class="summaryTableDescription">
+   Returns membership list data associated with an event.</div>
+</td><td class="summaryTableOwnerCol">Photos</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#upload()">upload</a>(data:String, aid:int = -1, caption:String = ""):void</div>
+<div class="summaryTableDescription">
+   Uploads a photo owned by the current session user and returns the new photo.</div>
+</td><td class="summaryTableOwnerCol">Photos</td>
+</tr>
+</table>
+</div>
+<a name="eventSummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Events</div>
+<table id="summaryTableEvent" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Event</th><th>Summary</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#event:photosAddTag">photosAddTag</a>
+</div>
+</td><td class="summaryTableDescription summaryTableCol">
+   Broadcast as a result of the addTag method being called
+      The event contains the following properties
+   success - Boolean indicating if the call was successful or not
+   data - When success is true, contains a "photos_addTag_response" string
+       When success is false, contains an "error" FacebookError instance
+      </td><td class="summaryTableOwnerCol">Photos</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#event:photosCreateAlbum">photosCreateAlbum</a>
+</div>
+</td><td class="summaryTableDescription summaryTableCol">
+   Broadcast as a result of the createAlbum method being called
+      The event contains the following properties
+   success - Boolean indicating if the call was successful or not
+   data - When success is true, contains a "photos_createAlbum_response" string
+       When success is false, contains an "error" FacebookError instance
+      </td><td class="summaryTableOwnerCol">Photos</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#event:photosGet">photosGet</a>
+</div>
+</td><td class="summaryTableDescription summaryTableCol">
+   Broadcast as a result of the get method being called
+      The event contains the following properties
+   success - Boolean indicating if the call was successful or not
+   data - When success is true, contains a "photos_get_response" string
+       When success is false, contains an "error" FacebookError instance
+      </td><td class="summaryTableOwnerCol">Photos</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#event:photosGetAlbums">photosGetAlbums</a>
+</div>
+</td><td class="summaryTableDescription summaryTableCol">
+   Broadcast as a result of the getAlbums method being called
+      The event contains the following properties
+   success - Boolean indicating if the call was successful or not
+   data - When success is true, contains a "photos_get_response" string
+       When success is false, contains an "error" FacebookError instance
+      </td><td class="summaryTableOwnerCol">Photos</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#event:photosGetTags">photosGetTags</a>
+</div>
+</td><td class="summaryTableDescription summaryTableCol">
+   Broadcast as a result of the getTags method being called
+      The event contains the following properties
+   success - Boolean indicating if the call was successful or not
+   data - When success is true, contains a "photos_get_response" string
+       When success is false, contains an "error" FacebookError instance
+      </td><td class="summaryTableOwnerCol">Photos</td>
+</tr>
+</table>
+</div>
+<script type="text/javascript" language="javascript">
+<!--
+showHideInherited();
+--></script>
+<div class="MainContent">
+<a name="constructorDetail"></a>
+<div class="detailSectionHeader">Constructor detail</div>
+<a name="Photos()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">Photos</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">constructor</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function Photos(service:<a href="../FacebookService.html">FacebookService</a>)</code><p>
+   Construct a new Photos "method group" class
+      </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">service</span>:<a href="../FacebookService.html">FacebookService</a></code> &mdash; The FacebookService this method group
+    is associated with.
+   </td>
+</tr>
+</table>
+</div>
+<a name="methodDetail"></a>
+<div class="detailSectionHeader">Method detail</div>
+<a name="addTag()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">addTag</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function addTag(pid:int, tag_uid:int, tag_text:String, x:Number, y:Number, tags:String):void</code><p>
+   Adds a tag with the given information to a photo. See photo uploads for a 
+   description of the upload workflow.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">pid</span>:int</code> &mdash; The photo id of the photo to be tagged.
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">tag_uid</span>:int</code> &mdash; The user id of the user being tagged. Either tag_uid or tag_text must be specified.
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">tag_text</span>:String</code> &mdash; Some text identifying the person being tagged. Either tag_uid or tag_text must be specified. This parameter is ignored if tag_uid is specified.
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">x</span>:Number</code> &mdash; The horizontal position of the tag, as a percentage from 0 to 100, from the left of the photo.
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">y</span>:Number</code> &mdash; The vertical position of the tag, as a percentage from 0 to 100, from the top of the photo.
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">tags</span>:String</code> &mdash; A JSON-serialized array representing a list of tags to be added to the photo. If the tags parameter is specified, the x, y, tag_uid, and tag_text parameters are ignored. Each tag in the list must specify: "x", "y", and either the user id "tag_uid" or free-form "tag_text" identifying the person being tagged. 
+       An example of this is the string [{"x":"30.0","y":"30.0","tag_uid":1234567890}, {"x":"70.0","y":"70.0","tag_text":"some person"}].
+   </td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="http://developers.facebook.com/documentation.php?v=1.0&doc=photos" target="mm_external">http://developers.facebook.com/documentation.php?v=1.0&amp;doc=photos</a>
+</div>
+</div>
+<a name="createAlbum()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">createAlbum</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function createAlbum(name:String, location:String = "", description:String = ""):void</code><p>
+   Creates and returns a new album owned by the current session user. See photo uploads for a 
+   description of the upload workflow. The only storable values returned from this call are 
+   aid and owner.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">name</span>:String</code> &mdash; The album name.
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">location</span>:String</code> (default = "<code></code>")<code></code> &mdash; (Optional) The album location.
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">description</span>:String</code> (default = "<code></code>")<code></code> &mdash; (Optional) The album description.
+   </td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="http://developers.facebook.com/documentation.php?v=1.0&doc=photos" target="mm_external">http://developers.facebook.com/documentation.php?v=1.0&amp;doc=photos</a>
+</div>
+</div>
+<a name="get()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">get</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function get(subj_id:int = -1, aid:int = -1, pids:Array = null):void</code><p>
+   Returns all visible photos according to the filters specified. This may be used 
+   to find all photos of a user, or to query specific eids. Note: It is an error to 
+   omit all three of the subj_id, aid, and pids parameters. They have no defaults.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">subj_id</span>:int</code> (default = <code>-1</code>)<code></code> &mdash; (Optional) Filter by photos associated tagged with this user.
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">aid</span>:int</code> (default = <code>-1</code>)<code></code> &mdash; (Optional) Filter by photos in this album.
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">pids</span>:Array</code> (default = <code>null</code>)<code></code> &mdash; (Optional) Filter by photos in this list. This is a comma-separated list of pids.
+   </td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="http://developers.facebook.com/documentation.php?v=1.0&doc=photos" target="mm_external">http://developers.facebook.com/documentation.php?v=1.0&amp;doc=photos</a>
+</div>
+</div>
+<a name="getAlbums()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">getAlbums</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function getAlbums(uid:int, pids:Array):void</code><p>
+   Returns membership list data associated with an event.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">uid</span>:int</code> &mdash; (Optional) Return albums created by this user.
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">pids</span>:Array</code> &mdash; (Optional) Return albums with aids in this list. This is a comma-separated list of pids.
+    </td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="http://developers.facebook.com/documentation.php?v=1.0&doc=photos" target="mm_external">http://developers.facebook.com/documentation.php?v=1.0&amp;doc=photos</a>
+</div>
+</div>
+<a name="getTags()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">getTags</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function getTags(pids:Array):void</code><p>
+   Returns membership list data associated with an event.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">pids</span>:Array</code> &mdash; The list of photos from which to extract photo tags. This is a comma-separated list of pids.
+   </td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="http://developers.facebook.com/documentation.php?v=1.0&doc=photos" target="mm_external">http://developers.facebook.com/documentation.php?v=1.0&amp;doc=photos</a>
+</div>
+</div>
+<a name="upload()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">upload</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function upload(data:String, aid:int = -1, caption:String = ""):void</code><p>
+   Uploads a photo owned by the current session user and returns the new photo. 
+   See photo uploads for a description of the upload workflow. The only storable 
+   values returned from this call are pid, aid, and owner.
+   
+   Note: This signature is different from the facebook api because in Actionscript 
+   required parameters are not permitted fteroptional parameters.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">data</span>:String</code> &mdash; (Optional) The raw image data for the photo.
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">aid</span>:int</code> (default = <code>-1</code>)<code></code> &mdash; (Optional) The album id of the destination album.
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">caption</span>:String</code> (default = "<code></code>")<code></code> &mdash; (Optional) The caption of the photo.
+   </td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="http://developers.facebook.com/documentation.php?v=1.0&doc=photos" target="mm_external">http://developers.facebook.com/documentation.php?v=1.0&amp;doc=photos</a>
+</div>
+</div>
+<div class="detailSectionHeader">Event detail</div>
+<a name="event:photosAddTag"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">photosAddTag</td><td class="detailHeaderType">event&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<span class="label">Event object type: </span><a href=""><code>com.adobe.webapis.facebook.photos.FacebookResultEvent</code></a>
+<br>
+<p></p><p>
+   Broadcast as a result of the addTag method being called
+      The event contains the following properties
+   success - Boolean indicating if the call was successful or not
+   data - When success is true, contains a "photos_addTag_response" string
+       When success is false, contains an "error" FacebookError instance
+      </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../methodgroups/Photos.html#addTag" target="">addTag</a>
+<br>com.adobe.service.facebook.FacebookError</div>
+</div>
+<a name="event:photosCreateAlbum"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">photosCreateAlbum</td><td class="detailHeaderType">event&nbsp;</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<span class="label">Event object type: </span><a href=""><code>com.adobe.webapis.facebook.photos.FacebookResultEvent</code></a>
+<br>
+<p></p><p>
+   Broadcast as a result of the createAlbum method being called
+      The event contains the following properties
+   success - Boolean indicating if the call was successful or not
+   data - When success is true, contains a "photos_createAlbum_response" string
+       When success is false, contains an "error" FacebookError instance
+      </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../methodgroups/Photos.html#createAlbum" target="">createAlbum</a>
+<br>com.adobe.service.facebook.FacebookError</div>
+</div>
+<a name="event:photosGet"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">photosGet</td><td class="detailHeaderType">event&nbsp;</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<span class="label">Event object type: </span><a href=""><code>com.adobe.webapis.facebook.photos.FacebookResultEvent</code></a>
+<br>
+<p></p><p>
+   Broadcast as a result of the get method being called
+      The event contains the following properties
+   success - Boolean indicating if the call was successful or not
+   data - When success is true, contains a "photos_get_response" string
+       When success is false, contains an "error" FacebookError instance
+      </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../methodgroups/Photos.html#get" target="">get</a>
+<br>com.adobe.service.facebook.FacebookError</div>
+</div>
+<a name="event:photosGetAlbums"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">photosGetAlbums</td><td class="detailHeaderType">event&nbsp;</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<span class="label">Event object type: </span><a href=""><code>com.adobe.webapis.facebook.photos.FacebookResultEvent</code></a>
+<br>
+<p></p><p>
+   Broadcast as a result of the getAlbums method being called
+      The event contains the following properties
+   success - Boolean indicating if the call was successful or not
+   data - When success is true, contains a "photos_get_response" string
+       When success is false, contains an "error" FacebookError instance
+      </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../methodgroups/Photos.html#getAlbums" target="">getAlbums</a>
+<br>com.adobe.service.facebook.FacebookError</div>
+</div>
+<a name="event:photosGetTags"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">photosGetTags</td><td class="detailHeaderType">event&nbsp;</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<span class="label">Event object type: </span><a href=""><code>com.adobe.webapis.facebook.photos.FacebookResultEvent</code></a>
+<br>
+<p></p><p>
+   Broadcast as a result of the getTags method being called
+      The event contains the following properties
+   success - Boolean indicating if the call was successful or not
+   data - When success is true, contains a "photos_get_response" string
+       When success is false, contains an "error" FacebookError instance
+      </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../methodgroups/Photos.html#getTags" target="">getTags</a>
+<br>com.adobe.service.facebook.FacebookError</div>
+</div>
+<br>
+<br>
+<hr>
+<br>
+<p></p>
+<center class="copyright"> 
+</center>
+</div>
+</body>
+</html>
+<!-- -->
